@@ -1,0 +1,55 @@
+# Python environments, bytecode, and test/tool caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+
+# Node dependencies and generated output
+node_modules/
+dist/
+build/
+
+# Environment files, local settings, credentials, and private keys
+.env
+.env.*
+*.env
+*.local
+*.local.*
+.secrets/
+secrets/
+credentials/
+*secret*
+*credential*
+*api-key*
+*api_key*
+*.key
+*.pem
+*.p12
+*.pfx
+*.p8
+*.token
+serial-config.*
+serial_config.*
+serial-port.*
+serial_port.*
+*serial*.local*
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Logs, editor settings, and operating-system files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
